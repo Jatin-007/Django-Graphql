@@ -1,4 +1,5 @@
 from django.db import models
+# fetching Model from models
 
 class Category(models.Model):
     name = models.CharField(max_length = 100)
@@ -15,3 +16,5 @@ class Ingredient(models.Model):
 
     def __str__(self):
         return self.name
+
+# making 2 collections i.e Category and ingredients
